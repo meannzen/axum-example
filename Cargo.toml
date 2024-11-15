@@ -3,6 +3,10 @@ name = "axum-example"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+path="src/main.rs"
+name="example"
+
 [dependencies]
 axum = "0.7.7"
 tokio = { version = "1.41.1", features = ["full"] }
